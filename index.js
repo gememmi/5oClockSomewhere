@@ -1,3 +1,4 @@
+
 const URL = "http//api.openbrewerydb.org/breweries?by_city=new_york"
 // var item = items[Math.floor(Math.random()*items.length)];
 
@@ -14,11 +15,17 @@ fetch("https://api.openbrewerydb.org/breweries?by_city=new_york")
     .then(response => response.json())
     .then (data => renderData(data))
 
+const breweryImage = document.querySelector('#beer-detail-image')
+const breweryName = document.querySelector('#brewery-detail-name')
+const breweryType = document.querySelector('#brewery-detail-type')
+const breweryPhoneNumber = document.querySelector('#')
+
 function renderData(data){
     console.log(data)
     data.forEach(data => {
         let breweryLi = document.createElement('h5')
         breweryLi.textContent = data.name
+<<<<<<< HEAD
         document.querySelector('#brewery-list').append(breweryLi)
         
     
@@ -32,6 +39,13 @@ function renderData(data){
             
         }
         )      
+=======
+        console.log(breweryLi) 
+        document.querySelector('#brewery-list').append(breweryLi) 
+        breweryLi.addEventListener('click', e => {
+            
+        })      
+>>>>>>> 2d7a5ba27d491a7874e771fbd740c4eb92b9bc7f
     })
 }
 
