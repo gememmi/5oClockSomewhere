@@ -1,11 +1,10 @@
 const URL = "http//api.openbrewerydb.org/breweries?by_city=new_york"
 // var item = items[Math.floor(Math.random()*items.length)];
 
-
-
 fetch("https://api.openbrewerydb.org/breweries?by_city=new_york")
     .then(response => response.json())
     .then (data => renderData(data))
+
 
 function renderData(data){
     data.forEach(data => {
@@ -42,10 +41,11 @@ function renderData(data){
     })
 }
 
-breweryForm.addEventListener('submit', e => {
+const form = document.querySelector('#find-brewery')
+form.addEventListener('submit', e => {
     e.preventDefault();
     console.log(e.target)
-    e.target[code].value
-    e.target[type].value
+    // e.target[code].value
+    // e.target[type].value
 })
 
