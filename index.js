@@ -5,6 +5,12 @@ fetch("https://api.openbrewerydb.org/breweries?by_city=new_york")
     .then(response => response.json())
     .then (data => renderData(data))
 
+const beerNameDetail = document.querySelector('#brewery-detail-name')
+const breweryTypeDetail = document.querySelector('#brewery-detail-type')
+const breweryPhoneDetail = document.querySelector('#phone-number')
+const breweryAddressDetail = document.querySelector("#brewery-detail-address")
+const detailImage = document.querySelector('#beer-detail-image')
+
 
 function renderData(data){
     data.forEach(data => {
@@ -13,14 +19,10 @@ function renderData(data){
         document.querySelector('#brewery-list').append(breweryLi)
         
     
-    breweryLi.addEventListener('click', (e) => {
-        const beerNameDetail = document.querySelector('#brewery-detail-name')
+    breweryLi.addEventListener('click', (e) => {            
         beerNameDetail.textContent = data.name
-        const breweryTypeDetail = document.querySelector('#brewery-detail-type')
         breweryTypeDetail.textContent = data.brewery_type
-        const breweryPhoneDetail = document.querySelector('#phone-number')
         breweryPhoneDetail.textContent = data.phone
-        const breweryAddressDetail = document.querySelector("#brewery-detail-address")
         breweryAddressDetail.textContent = data.street
 
           
@@ -43,7 +45,6 @@ function renderData(data){
             
 
         let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
-        const detailImage = document.querySelector('#beer-detail-image')
         detailImage.src = randomImage;
             
             
