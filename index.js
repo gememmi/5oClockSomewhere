@@ -61,5 +61,14 @@ form.addEventListener('submit', e => {
     // e.target[type].value
 })
 
+beerNameDetail.addEventListener('keydown', e => {
+    console.log(e.target)
+        
+    }
+    
+)
+
+
+
 
 
