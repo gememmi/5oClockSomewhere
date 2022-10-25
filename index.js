@@ -25,13 +25,20 @@ function renderData(data){
 
           
         const imageArray = [
-                "/Users/emilydaniels/Development/code/phase-1-project/images/alphabet-city-beer-company.jpeg",
-             "/Users/emilydaniels/Development/code/phase-1-project/images/b9 beverages.webp",
-                "/Users/emilydaniels/Development/code/phase-1-project/images/birreriaEataly.jpeg",
-                "/Users/emilydaniels/Development/code/phase-1-project/images/deathave.jpeg",
-                "/Users/emilydaniels/Development/code/phase-1-project/images/empire city .jpeg",
-                "/Users/emilydaniels/Development/code/phase-1-project/images/harlembluebeer.jpg",
-              "/Users/emilydaniels/Development/code/phase-1-project/images/harlembrewery.jpeg", "/Users/emilydaniels/Development/code/phase-1-project/images/heartland.jpg", "/Users/emilydaniels/Development/code/phase-1-project/images/owlsBrew.jpeg","/Users/emilydaniels/Development/code/phase-1-project/images/radiantPig.webp","/Users/emilydaniels/Development/code/phase-1-project/images/ruckusco.jpeg","/Users/emilydaniels/Development/code/phase-1-project/images/ruckusco.jpeg", "/Users/emilydaniels/Development/code/phase-1-project/images/thirdRail.jpeg", "/Users/emilydaniels/Development/code/phase-1-project/images/toastAle.jpeg"
+            "./images/alphabet-city-beer-company.jpeg",
+            "./images/b9 beverages.webp",
+            "./images/birreriaEataly.jpeg",
+            "./images/deathave.jpeg",
+            "./images/empire city .jpeg",
+            "./images/harlembluebeer.jpg",
+            "./images/harlembrewery.jpeg", 
+            "./images/heartland.jpg", 
+            "./images/owlsBrew.jpeg",
+            "./images/radiantPig.webp",
+            "./images/ruckusco.jpeg",
+            "./images/ruckusco.jpeg", 
+            "./images/thirdRail.jpeg", 
+            "./images/toastAle.jpeg"
             ]
             
 
