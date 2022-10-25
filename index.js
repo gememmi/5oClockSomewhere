@@ -10,6 +10,9 @@ const breweryTypeDetail = document.querySelector('#brewery-detail-type')
 const breweryPhoneDetail = document.querySelector('#phone-number')
 const breweryAddressDetail = document.querySelector("#brewery-detail-address")
 const detailImage = document.querySelector('#beer-detail-image')
+const form = document.querySelector('#find-brewery')
+const favMenu = document.querySelector('#faves-menu')
+const matchingBreweries = document.querySelector('#matching-breweries')
 
 
 function renderData(data){
@@ -54,13 +57,21 @@ function renderData(data){
     })
 }
 
-const form = document.querySelector('#find-brewery')
 form.addEventListener('submit', e => {
     e.preventDefault();
     console.log(e.target)
-    // e.target[code].value
-    // e.target[type].value
+    const h5 = document.createElement('h5')
+    h5.textContent = e.target[type].value
+    matchingBreweries.append(h5)
 })
 
+document.addEventListener('keydown', e => {
+        // console.log(e)
+        if(e.key === " " ) {
+            const breweryFav = document.createElement('img')
+            breweryFav.src = detailImage
+            favMenu.append(breweryFav)
+        }
+})
 
 
