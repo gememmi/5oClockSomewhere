@@ -13,14 +13,18 @@ function renderData(data){
         document.querySelector('#brewery-list').append(breweryLi)
         
     
-        breweryLi.addEventListener('click', (e) => {
-            const beerNameDetail = document.querySelector('#brewery-detail-name')
-            beerNameDetail.textContent = data.name
-            const breweryTypeDetail = document.querySelector('#brewery-detail-type')
-            breweryTypeDetail.textContent = data.brewery_type
-            const breweryPhone = document.querySelector('#phone-number')
+    breweryLi.addEventListener('click', (e) => {
+        const beerNameDetail = document.querySelector('#brewery-detail-name')
+        beerNameDetail.textContent = data.name
+        const breweryTypeDetail = document.querySelector('#brewery-detail-type')
+        breweryTypeDetail.textContent = data.brewery_type
+        const breweryPhoneDetail = document.querySelector('#phone-number')
+        breweryPhoneDetail.textContent = data.phone
+        const breweryAddressDetail = document.querySelector("#brewery-detail-address")
+        breweryAddressDetail.textContent = data.street
+
           
-            const imageArray = [
+        const imageArray = [
                 "/Users/emilydaniels/Development/code/phase-1-project/images/alphabet-city-beer-company.jpeg",
              "/Users/emilydaniels/Development/code/phase-1-project/images/b9 beverages.webp",
                 "/Users/emilydaniels/Development/code/phase-1-project/images/birreriaEataly.jpeg",
@@ -31,8 +35,9 @@ function renderData(data){
             ]
             
 
-            let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
-            const detailImage = document.querySelector('#beer-detail-image')
+        let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
+        const detailImage = document.querySelector('#beer-detail-image')
+        detailImage.src = randomImage;
             
             
             
