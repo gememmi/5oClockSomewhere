@@ -47,3 +47,10 @@ function renderData(data){
     })
 }
 
+breweryForm.addEventListener('submit', e => {
+    e.preventDefault();
+    console.log(e.target)
+    e.target[code].value
+    e.target[type].value
+})
+
