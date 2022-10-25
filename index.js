@@ -18,34 +18,26 @@ fetch("https://api.openbrewerydb.org/breweries?by_city=new_york")
 const breweryImage = document.querySelector('#beer-detail-image')
 const breweryName = document.querySelector('#brewery-detail-name')
 const breweryType = document.querySelector('#brewery-detail-type')
-const breweryPhoneNumber = document.querySelector('#')
+const breweryForm = document.querySelector('#find-brewery')
+const breweryList = document.querySelector('#brewery-list')
 
 function renderData(data){
     console.log(data)
     data.forEach(data => {
         let breweryLi = document.createElement('h5')
         breweryLi.textContent = data.name
-<<<<<<< HEAD
-        document.querySelector('#brewery-list').append(breweryLi)
-        
-    
-        breweryLi.addEventListener('click', (e) => {
-            beerNameDetail = document.querySelector('#brewery-detail-name')
-            beerNameDetail.textContent = data.name
-
-        // let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
-        // detailImage = document.querySelector('#beer-detail-image')
-        // detailImage.src = randomImage
-            
-        }
-        )      
-=======
         console.log(breweryLi) 
-        document.querySelector('#brewery-list').append(breweryLi) 
+        breweryList.append(breweryLi) 
         breweryLi.addEventListener('click', e => {
-            
+               
         })      
->>>>>>> 2d7a5ba27d491a7874e771fbd740c4eb92b9bc7f
     })
 }
+
+breweryForm.addEventListener('submit', e => {
+    e.preventDefault();
+    console.log(e.target)
+    e.target[code].value
+    e.target[type].value
+})
 
