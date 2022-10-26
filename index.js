@@ -14,6 +14,7 @@ function renderData(data){
         
     
     breweryLi.addEventListener('click', (e) => {
+        //shoud we move all of these to the global scope?
         const beerNameDetail = document.querySelector('#brewery-detail-name')
         beerNameDetail.textContent = data.name
         const breweryTypeDetail = document.querySelector('#brewery-detail-type')
@@ -45,13 +46,29 @@ function renderData(data){
         let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
         const detailImage = document.querySelector('#beer-detail-image')
         detailImage.src = randomImage;
+
+        document.addEventListener('keydown', e => {
+            if (e.code === 'Space'){
             
-            
-            
-        }
-        )      
-    })
+             }
+          }) 
+        
 }
+         //key down event handler, should this be within this event listener?
+       
+
+        )
+         
+    })
+   
+}
+
+// document.addEventListener('keydown', e => {
+//     if (e.code === 'Space'){
+//     console.log('boop')
+//      }
+//   }) 
+
 
 const form = document.querySelector('#find-brewery')
 form.addEventListener('submit', e => {
@@ -61,12 +78,8 @@ form.addEventListener('submit', e => {
     // e.target[type].value
 })
 
-beerNameDetail.addEventListener('keydown', e => {
-    console.log(e.target)
-        
-    }
-    
-)
+
+
 
 
 
