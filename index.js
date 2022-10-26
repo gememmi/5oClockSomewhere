@@ -49,7 +49,17 @@ function renderData(data){
         let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
         detailImage.src = randomImage;
             
+        document.addEventListener('keydown', (e) => {
+         if (e.key === " "){
+            const h2 = document.querySelector("#faveH2")
+            const faveName = document.createElement('p')
+            faveName.textContent = beerNameDetail.textContent
+            h2.append(faveName)
             
+            
+         }
+        }
+        )
             
         }
         )      
@@ -97,20 +107,20 @@ function renderingMatchedBreweries(brewery) {
 
 
 
-breweryDetails.addEventListener('keydown', e => {
-        if(e.key === " " ) {
-            const breweryFav = document.createElement('h5')
-            breweryFav.textContent = 
-            favMenu.append(breweryFav)
-        }
-})
+// breweryDetails.addEventListener('keydown', e => {
+//         if(e.key === " " ) {
+//             const breweryFav = document.createElement('h5')
+//             breweryFav.textContent = 
+//             favMenu.append(breweryFav)
+//         }
+// })
 
-beerNameDetail.addEventListener('keydown', e => {
-    console.log(e.target)
+// beerNameDetail.addEventListener('keydown', e => {
+//     console.log(e.target)
         
-    }
+//     }
     
-)
+// )
 
 
 
