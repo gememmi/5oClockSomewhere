@@ -5,17 +5,23 @@ const breweryAddressDetail = document.querySelector("#brewery-detail-address")
 const detailImage = document.querySelector('#beer-detail-image')
 const form = document.querySelector('#find-brewery')
 const favMenu = document.querySelector('#faves-menu')
+const h2 = document.querySelector("#faveH2")
+
 const matchingBreweries = document.querySelector('#matching-breweries')
 const breweryList = document.querySelector('#brewery-list')
 const breweryDetails = document.querySelector('#brewery-details')
+let currentData
 
 fetch("http://localhost:3000/breweries")
     .then(response => response.json())
     .then (data => renderData(data))
+    
 
 
 function renderData(data){
-    renderingBreweriesByInfo(data);
+    currentData = data
+    //changed this to currentData to test
+    renderingBreweriesByInfo(currentData);
     data.forEach(data => {
         let breweryLi = document.createElement('h5')
         breweryLi.textContent = data.name
@@ -49,22 +55,51 @@ function renderData(data){
         let randomImage = imageArray[Math.floor(Math.random()*imageArray.length)];
         detailImage.src = randomImage;
             
-        document.addEventListener('keydown', (e) => {
-         if (e.key === " "){
-            const h2 = document.querySelector("#faveH2")
-            const faveName = document.createElement('p')
-            faveName.textContent = beerNameDetail.textContent
-            h2.append(faveName)
-            
-            
-         }
-        }
-        )
-            
         }
         )      
+   
     })
-}
+    document.addEventListener('keydown', (e) => {
+        e.preventDefault()
+         if (e.key === " "){
+        const newObject ={
+            name: currentData.name,
+            brewery_type: currentData.brewery_type,
+            address: currentData.street,
+            postal_code: currentData.postal_code,
+            }
+            fetch("http://localhost:3000/breweries", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(newObject)
+            })
+            .then(response => response.json())
+            .then(data => {
+               favMenu.append(newObject)
+                
+            })
+            const faveName = document.createElement('p')
+            faveName.textContent = beerNameDetail.textContent
+            const faveType = document.createElement('p')
+            faveType.textContent = breweryTypeDetail.textContent
+            const faveNumber = document.createElement('p')
+            faveNumber.textContent = breweryPhoneDetail.textContent
+            const faveAddress = document.createElement('p')
+            faveAddress.textContent = breweryAddressDetail.textContent
+            
+            h2.append(faveName)
+            h2.append(faveType)
+            h2.append(faveNumber)
+            h2.append(faveAddress)
+     }
+    }
+
+
+)}
+ 
+
 
 function renderingBreweriesByInfo(data) {
     form.addEventListener('submit', e => {
