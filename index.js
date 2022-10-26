@@ -61,37 +61,34 @@ function renderingBreweriesByInfo(data) {
     e.preventDefault();
     const filteredBreweriesByZipCode = data.filter(breweries => e.target.code.value === breweries.postal_code)
     const filteredBreweriesByBreweryType = data.filter(breweries => e.target.type.value === breweries.brewery_type)
-    filteredBreweriesByZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
-    filteredBreweriesByBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))
-    // const filteredBreweriesByBreweryTypeAndZipCode = data.filter(breweries => {
-    //    return e.target.code.value === breweries.postal_code && e.target.type.value === breweries.brewery_type
-    // })
-    // if (filteredBreweriesByBreweryTypeAndZipCode.length === 1) {
-    //     filteredBreweriesByBreweryTypeAndZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
-    // }
-    // else if (filteredBreweriesByZipCode.length === 1) {
-    //     filteredBreweriesByZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
-    // }
-    // else if (filteredBreweriesByBreweryType.length > 0) {
-    //     filteredBreweriesByBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))
-    // }
+    const filteredBreweriesByZipCodeAndBreweryType = data.filter(breweries => {
+        return e.target.code.value === breweries.postal_code && e.target.type.value === breweries.brewery_type
+    })
+    if (e.target.code.value && e.target.type.value) {
+        return filteredBreweriesByZipCodeAndBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))  
+    } else if (e.target.code.value) {
+        return filteredBreweriesByZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
+    } else if (e.target.type.value) {
+        return filteredBreweriesByBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))
     }
     
-    )}
+} 
+)
+}
 
 
 function renderingMatchedBreweries(brewery) {
     const filteredBreweryName = document.createElement('h3')
-    filteredBreweryName.textContent = `Brewery Name: ${brewery.name}`
+    filteredBreweryName.textContent = `Brewery/Cidery Name: ${brewery.name}`
     matchingBreweries.append(filteredBreweryName) 
     const filteredBreweryType = document.createElement('h5')
-    filteredBreweryType.textContent = `Brewery Type: ${brewery.brewery_type}`
+    filteredBreweryType.textContent = `Brewery/Cidery Type: ${brewery.brewery_type}`
     matchingBreweries.append(filteredBreweryType)  
     const filteredBreweryPhoneNumber = document.createElement('h5')
-    filteredBreweryPhoneNumber.textContent = `Brewery Phone Number: ${brewery.phone}`
+    filteredBreweryPhoneNumber.textContent = `Brewery/Cidery Phone Number: ${brewery.phone}`
     matchingBreweries.append(filteredBreweryPhoneNumber)  
     const filteredBreweryAddress = document.createElement('h5')
-    filteredBreweryAddress.textContent = `Brewery Address: ${brewery.street}`
+    filteredBreweryAddress.textContent = `Brewery/Cidery Address: ${brewery.street}`
     matchingBreweries.append(filteredBreweryAddress)  
 }
 
