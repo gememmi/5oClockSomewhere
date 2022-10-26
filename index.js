@@ -63,7 +63,6 @@ function renderingBreweriesByInfo(data) {
     const filteredBreweriesByBreweryType = data.filter(breweries => e.target.type.value === breweries.brewery_type)
     filteredBreweriesByZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
     filteredBreweriesByBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))
-    
     // const filteredBreweriesByBreweryTypeAndZipCode = data.filter(breweries => {
     //    return e.target.code.value === breweries.postal_code && e.target.type.value === breweries.brewery_type
     // })
