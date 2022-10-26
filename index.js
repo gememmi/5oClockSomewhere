@@ -14,7 +14,6 @@ fetch("http://localhost:3000/breweries")
     .then (data => renderData(data))
 
 
-
 function renderData(data){
     renderingBreweriesByInfo(data);
     data.forEach(data => {
@@ -60,26 +59,45 @@ function renderData(data){
 function renderingBreweriesByInfo(data) {
     form.addEventListener('submit', e => {
     e.preventDefault();
-    const filteredBreweries = data.filter(breweries => e.target.code.value === breweries.postal_code)
-    console.log(filteredBreweries)
-
-
-            // data.forEach(code => {
-            // const h5 = document.createElement('h5')
-            // h5.textContent = code.postal_code
-            // matchingBreweries.append(h5) 
-            // )
-            
-        }
+    const filteredBreweriesByZipCode = data.filter(breweries => e.target.code.value === breweries.postal_code)
+    const filteredBreweriesByBreweryType = data.filter(breweries => e.target.type.value === breweries.brewery_type)
+    filteredBreweriesByZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
+    filteredBreweriesByBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))
+    
+    // const filteredBreweriesByBreweryTypeAndZipCode = data.filter(breweries => {
+    //    return e.target.code.value === breweries.postal_code && e.target.type.value === breweries.brewery_type
+    // })
+    // if (filteredBreweriesByBreweryTypeAndZipCode.length === 1) {
+    //     filteredBreweriesByBreweryTypeAndZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
+    // }
+    // else if (filteredBreweriesByZipCode.length === 1) {
+    //     filteredBreweriesByZipCode.forEach(brewery => renderingMatchedBreweries(brewery))
+    // }
+    // else if (filteredBreweriesByBreweryType.length > 0) {
+    //     filteredBreweriesByBreweryType.forEach(brewery => renderingMatchedBreweries(brewery))
+    // }
+    }
     
     )}
 
 
+function renderingMatchedBreweries(brewery) {
+    const filteredBreweryName = document.createElement('h3')
+    filteredBreweryName.textContent = `Brewery Name: ${brewery.name}`
+    matchingBreweries.append(filteredBreweryName) 
+    const filteredBreweryType = document.createElement('h5')
+    filteredBreweryType.textContent = `Brewery Type: ${brewery.brewery_type}`
+    matchingBreweries.append(filteredBreweryType)  
+    const filteredBreweryPhoneNumber = document.createElement('h5')
+    filteredBreweryPhoneNumber.textContent = `Brewery Phone Number: ${brewery.phone}`
+    matchingBreweries.append(filteredBreweryPhoneNumber)  
+    const filteredBreweryAddress = document.createElement('h5')
+    filteredBreweryAddress.textContent = `Brewery Address: ${brewery.street}`
+    matchingBreweries.append(filteredBreweryAddress)  
+}
 
-// const findingBreweryObj = {
-//     postal_code: e.target.code.value,
-//     brewery_type: e.target.type.value,
-// }
+
+
 breweryDetails.addEventListener('keydown', e => {
         if(e.key === " " ) {
             const breweryFav = document.createElement('h5')
