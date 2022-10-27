@@ -73,12 +73,9 @@ function renderData(data) {
             // breweryPhoneDetail.textContent = brewery.phone;
             // breweryAddressDetail.textContent = brewery.street;
 
-            favMenu.append(brewery.name)
-            favMenu.append(brewery.brewery_type)
-            favMenu.append(brewery.street)
-            favMenu.append(brewery.postal_code)
+           
 
-            // alert("added to favorites")
+            alert("added to favorites")
         }
   });
 }
