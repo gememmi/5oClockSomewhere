@@ -2587,6 +2587,615 @@
       "address": "601 W 26th St Ste 325-291",
       "postal_code": "10001-1101",
       "id": 361
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 362
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 363
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 364
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 365
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 366
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 367
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 368
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 369
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 370
+    },
+    {
+      "name": "Ruckus Brewing Co",
+      "brewery_type": "contract",
+      "address": "261 W 35th St Ste 1002",
+      "postal_code": "10001-1902",
+      "id": 371
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 372
+    },
+    {
+      "name": "Third Rail Beer",
+      "brewery_type": "contract",
+      "address": "928 Broadway Ste 902",
+      "postal_code": "10010-8139",
+      "id": 373
+    },
+    {
+      "name": "Toast Ale",
+      "brewery_type": "contract",
+      "address": "601 W 26th St Ste 325-291",
+      "postal_code": "10001-1101",
+      "id": 374
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 375
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 376
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 377
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 378
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 379
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 380
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 381
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 382
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 383
+    },
+    {
+      "name": "Ruckus Brewing Co",
+      "brewery_type": "contract",
+      "address": "261 W 35th St Ste 1002",
+      "postal_code": "10001-1902",
+      "id": 384
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 385
+    },
+    {
+      "name": "Third Rail Beer",
+      "brewery_type": "contract",
+      "address": "928 Broadway Ste 902",
+      "postal_code": "10010-8139",
+      "id": 386
+    },
+    {
+      "name": "Toast Ale",
+      "brewery_type": "contract",
+      "address": "601 W 26th St Ste 325-291",
+      "postal_code": "10001-1101",
+      "id": 387
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 388
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 389
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 390
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 391
+    },
+    {
+      "name": "Ruckus Brewing Co",
+      "brewery_type": "contract",
+      "address": "261 W 35th St Ste 1002",
+      "postal_code": "10001-1902",
+      "id": 392
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 393
+    },
+    {
+      "name": "Third Rail Beer",
+      "brewery_type": "contract",
+      "address": "928 Broadway Ste 902",
+      "postal_code": "10010-8139",
+      "id": 394
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 395
+    },
+    {
+      "name": "Toast Ale",
+      "brewery_type": "contract",
+      "address": "601 W 26th St Ste 325-291",
+      "postal_code": "10001-1101",
+      "id": 396
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 397
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 398
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 399
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 400
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 401
+    },
+    {
+      "name": "Toast Ale",
+      "brewery_type": "contract",
+      "address": "601 W 26th St Ste 325-291",
+      "postal_code": "10001-1101",
+      "id": 402
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 403
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 404
+    },
+    {
+      "name": "Third Rail Beer",
+      "brewery_type": "contract",
+      "address": "928 Broadway Ste 902",
+      "postal_code": "10010-8139",
+      "id": 405
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 406
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 407
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 408
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 409
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 410
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 411
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 412
+    },
+    {
+      "name": "Ruckus Brewing Co",
+      "brewery_type": "contract",
+      "address": "261 W 35th St Ste 1002",
+      "postal_code": "10001-1902",
+      "id": 413
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 414
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 415
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 416
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 417
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 418
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 419
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 420
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 421
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 422
+    },
+    {
+      "name": "Ruckus Brewing Co",
+      "brewery_type": "contract",
+      "address": "261 W 35th St Ste 1002",
+      "postal_code": "10001-1902",
+      "id": 423
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 424
+    },
+    {
+      "name": "Third Rail Beer",
+      "brewery_type": "contract",
+      "address": "928 Broadway Ste 902",
+      "postal_code": "10010-8139",
+      "id": 425
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 426
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 427
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 428
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 429
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 430
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 431
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 432
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 433
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 434
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 435
+    },
+    {
+      "name": "Ruckus Brewing Co",
+      "brewery_type": "contract",
+      "address": "261 W 35th St Ste 1002",
+      "postal_code": "10001-1902",
+      "id": 436
+    },
+    {
+      "name": "Third Rail Beer",
+      "brewery_type": "contract",
+      "address": "928 Broadway Ste 902",
+      "postal_code": "10010-8139",
+      "id": 437
+    },
+    {
+      "name": "Toast Ale",
+      "brewery_type": "contract",
+      "address": "601 W 26th St Ste 325-291",
+      "postal_code": "10001-1101",
+      "id": 438
+    },
+    {
+      "name": "Alphabet City Brewing Co",
+      "brewery_type": "contract",
+      "address": "96 Avenue C Frnt 4",
+      "postal_code": "10009-7055",
+      "id": 439
+    },
+    {
+      "name": "B9 Beverages Inc",
+      "brewery_type": "contract",
+      "address": "404 5th Ave # 7.055",
+      "postal_code": "10018-2797",
+      "id": 440
+    },
+    {
+      "name": "Birreria @ Eataly",
+      "brewery_type": "brewpub",
+      "address": "200 5th Ave Fl 14",
+      "postal_code": "10010-3302",
+      "id": 441
+    },
+    {
+      "name": "Death Avenue",
+      "brewery_type": "brewpub",
+      "address": "315 10th Ave B/W 28th & 29th St.",
+      "postal_code": "10001-1416",
+      "id": 442
+    },
+    {
+      "name": "Empire City Beer Company",
+      "brewery_type": "planning",
+      "address": null,
+      "postal_code": "10012",
+      "id": 443
+    },
+    {
+      "name": "Harlem Blue Beer",
+      "brewery_type": "proprietor",
+      "address": "2214 Frederick Douglass Blvd Ste 267",
+      "postal_code": "10026-1123",
+      "id": 444
+    },
+    {
+      "name": "Harlem Brewing Co",
+      "brewery_type": "contract",
+      "address": "2 W 123rd St",
+      "postal_code": "10027-5623",
+      "id": 445
+    },
+    {
+      "name": "Radiant Pig Craft Beers",
+      "brewery_type": "contract",
+      "address": "122 W 27th St Fl 10",
+      "postal_code": "10001-6227",
+      "id": 446
+    },
+    {
+      "name": "The Owls Brew",
+      "brewery_type": "large",
+      "address": "135 W 29th St Rm 602",
+      "postal_code": "10001-5175",
+      "id": 447
+    },
+    {
+      "name": "Heartland Brewery",
+      "brewery_type": "contract",
+      "address": "35 Union Sq W Frnt 1",
+      "postal_code": "10003-3200",
+      "id": 448
     }
   ]
 }
