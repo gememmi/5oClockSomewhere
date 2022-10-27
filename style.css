@@ -39,7 +39,7 @@ header h2{
 
 }
 section{
-    padding-top:400px;
+    padding-top:275px;
     display: flex;
 }
 
@@ -88,9 +88,10 @@ section{
 }
 #brewery-list h5{
     background-color: aliceblue;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 50%;
 }
+#brewery-list
 
 #brewery-list h5:hover{
     transform: scale(1.1);
@@ -114,6 +115,24 @@ section{
     margin-top: 20px;
     margin-right: 20px;
     width: 200px;
+}
+
+#find-brewery{
+    text-align: center;
+}
+
+#matching-breweries{
+ text-align: center;
+   
+}
+#matching-breweries h2{
+    background-color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    /* position: absolute;
+    left: 400px; */
+    padding: 2rem;
+    
 }
 
 

@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="index.js"></script>
-    <script src="style.css"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Secular+One&display=swap" rel="stylesheet">
     <title>It's 5 o'Clock Somewhere!</title>
 </head>
 <body>
@@ -13,6 +16,12 @@
         <h1>It's 5 o'Clock... Somewhere!</h1>
             <h2>Your Directory for Local NYC Breweries and Cideries</h2>
     </header>
+    <section>
+        
+        <div id="brewery-list">
+            <h2>NYC Breweries and Cideries</h2>
+        </div>
+       
         <div id="brewery-details">
             <img id="beer-detail-image" src="images/beerstockimage.jpg">
             <h3 class="details">Name</h3>
@@ -23,17 +32,18 @@
                 <p id="phone-number">Brewery/Cidery Phone Number</p>
             <h3 class="details">Address</h3>
                 <p id="brewery-detail-address">Brewery/Cidery Address</p>
+                <p><i>Press your space bar to save this brewery</i></p>
         </div>
-       
+
         <div id="faves-menu">
             <h2 id="faveH2">Favorites Menu</h2>
             <img src="./images/beerLOVE.jpeg">
-            
-            
-     </div>
-    
-        <div id="brewery-list">
         </div>
+       
+       
+    
+       
+    </section>
     <form id="find-brewery">
         <h2>Find Brewery/Cidery</h2>
         <label for="zip-code">Zip Code</label>
@@ -41,9 +51,10 @@
         <label for="brewery-type">Brewey/Cidery Type</label>
         <input type="text" name="brewery-type" id="type">
         <button type="submit">Find Brewery/Cidery</button>
+    
     </form>
     <div id="matching-breweries">
-        <h2>Matching Breweries/Cideries</h2>
+        <h2>Matching Breweries/Cideries:</h2>
     </div>
 </body>
 </html>

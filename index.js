@@ -56,27 +56,9 @@ function renderData(data) {
 document.addEventListener('keydown', e => {
     if (e.key === " " ) {
             e.preventDefault();
-            persistData(currentData);
+            addingToFavMenu(currentData);
         }
 })    
-    
-function persistData(currentData) {
-    const newObject = {
-        name: currentData.name,
-        brewery_type: currentData.brewery_type,
-        address: currentData.street,
-        postal_code: currentData.postal_code,
-        }
-    fetch("http://localhost:3000/breweries", {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newObject)
-        })
-        .then(response => response.json())
-        .then(data => addingToFavMenu(data))
-}
 
 function addingToFavMenu(currentData) {
     const faveName = document.createElement('p')
@@ -110,16 +92,16 @@ function renderingBreweriesByInfo(data) {
 
 function renderingMatchedBreweries(brewery) {
     const filteredBreweryName = document.createElement('h3')
-    filteredBreweryName.textContent = `Brewery/Cidery Name: ${brewery.name}`
+    filteredBreweryName.textContent = `${brewery.name}`
     matchingBreweries.append(filteredBreweryName) 
     const filteredBreweryType = document.createElement('h5')
-    filteredBreweryType.textContent = `Brewery/Cidery Type: ${brewery.brewery_type}`
+    filteredBreweryType.textContent = `${brewery.brewery_type}`
     matchingBreweries.append(filteredBreweryType)  
     const filteredBreweryPhoneNumber = document.createElement('h5')
-    filteredBreweryPhoneNumber.textContent = `Brewery/Cidery Phone Number: ${brewery.phone}`
+    filteredBreweryPhoneNumber.textContent = `${brewery.phone}`
     matchingBreweries.append(filteredBreweryPhoneNumber)  
     const filteredBreweryAddress = document.createElement('h5')
-    filteredBreweryAddress.textContent = `Brewery/Cidery Address: ${brewery.street}`
+    filteredBreweryAddress.textContent = `${brewery.street}`
     matchingBreweries.append(filteredBreweryAddress)  
 }
 
