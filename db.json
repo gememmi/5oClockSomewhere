@@ -1,7 +1,7 @@
 {
   "breweries": [
     {
-      "id": "alphabet-city-brewing-co-new-york",
+      "id": 1,
       "name": "Alphabet City Brewing Co",
       "brewery_type": "contract",
       "street": "96 Avenue C Frnt 4",
@@ -20,7 +20,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "b9-beverages-inc-new-york",
+      "id": 2,
       "name": "B9 Beverages Inc",
       "brewery_type": "contract",
       "street": "404 5th Ave # 7.055",
@@ -39,7 +39,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "birreria-eataly-new-york",
+      "id": 3,
       "name": "Birreria @ Eataly",
       "brewery_type": "brewpub",
       "street": "200 5th Ave Fl 14",
@@ -58,7 +58,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "death-avenue-new-york",
+      "id": 4,
       "name": "Death Avenue",
       "brewery_type": "brewpub",
       "street": "315 10th Ave B/W 28th & 29th St.",
@@ -77,7 +77,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "empire-city-beer-company-new-york",
+      "id": 5,
       "name": "Empire City Beer Company",
       "brewery_type": "planning",
       "street": null,
@@ -96,7 +96,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "harlem-blue-beer-new-york",
+      "id": 6,
       "name": "Harlem Blue Beer",
       "brewery_type": "proprietor",
       "street": "2214 Frederick Douglass Blvd Ste 267",
@@ -115,7 +115,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "harlem-brewing-co-new-york",
+      "id": 7,
       "name": "Harlem Brewing Co",
       "brewery_type": "contract",
       "street": "2 W 123rd St",
@@ -134,7 +134,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "heartland-brewery-new-york",
+      "id": 8,
       "name": "Heartland Brewery",
       "brewery_type": "contract",
       "street": "35 Union Sq W Frnt 1",
@@ -153,7 +153,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "radiant-pig-craft-beers-new-york",
+      "id": 9,
       "name": "Radiant Pig Craft Beers",
       "brewery_type": "contract",
       "street": "122 W 27th St Fl 10",
@@ -172,7 +172,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "ruckus-brewing-co-new-york",
+      "id": 10,
       "name": "Ruckus Brewing Co",
       "brewery_type": "contract",
       "street": "261 W 35th St Ste 1002",
@@ -191,7 +191,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "the-owls-brew-new-york",
+      "id": 11,
       "name": "The Owls Brew",
       "brewery_type": "large",
       "street": "135 W 29th St Rm 602",
@@ -210,7 +210,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "third-rail-beer-new-york",
+      "id": 12,
       "name": "Third Rail Beer",
       "brewery_type": "contract",
       "street": "928 Broadway Ste 902",
@@ -229,7 +229,7 @@
       "created_at": "2022-08-20T02:56:08.975Z"
     },
     {
-      "id": "toast-ale-new-york",
+      "id": 13,
       "name": "Toast Ale",
       "brewery_type": "contract",
       "street": "601 W 26th St Ste 325-291",
@@ -246,15 +246,7 @@
       "website_url": "http://www.toastale.com/us",
       "updated_at": "2022-08-20T02:56:08.975Z",
       "created_at": "2022-08-20T02:56:08.975Z"
-    },
-    {
-      "id": "14Xl558"
-    },
-    {
-      "id": "XiT4kV6"
-    },
-    {
-      "id": "Q-EKxkP"
     }
-  ]
+  ],
+  "faves": []
 }
