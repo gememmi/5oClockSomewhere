@@ -105,6 +105,15 @@ function renderingMatchedBreweries(brewery) {
     matchingBreweries.append(filteredBreweryAddress)  
 }
 
+function updateCurrentTime() {
+    const currentTimeElement = document.getElementById('current-time');
+    const now  = new Date(Date.now() + 2 * 60 * 60 * 1000).toLocaleTimeString('en-US', { hour: 'numeric', hour12: true, minute: 'numeric' });
+
+    const timeString = now.toLocaleString();
+    currentTimeElement.textContent = 'Current time: ' + timeString;
+}
+updateCurrentTime();
+setInterval(updateCurrentTime, 1000);
 
 
 
